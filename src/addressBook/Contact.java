@@ -31,7 +31,7 @@ public class Contact {
         System.out.format("+----------------------------------------------+%n");
         System.out.format("|                  Address Book                |%n");
         System.out.format("+------------------------------+---------------+%n");
-        System.out.format("| Contact Name                 | Phone number  |%n");
+        System.out.format("| Contact Name                 | Phone Number  |%n");
         System.out.format("+------------------------------+---------------+%n");
         for (String i: addressBook.keySet()){
             System.out.format(leftAlignFormat, i, addressBook.get(i));
